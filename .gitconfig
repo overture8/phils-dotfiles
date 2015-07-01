@@ -1,0 +1,12 @@
+[user]
+	name = Phil McClure
+	email = ???
+[core]
+	editor = /usr/bin/vim
+[alias]
+  co = checkout
+  s = status
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[github]
+  user = overture8
+  token = ???
