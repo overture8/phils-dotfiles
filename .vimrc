@@ -9,11 +9,11 @@ set showcmd
 set smartcase
 set nowrap
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle
-Plugin 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
 " plugins
 Plugin 'tpope/vim-fugitive'
@@ -49,6 +49,9 @@ Plugin 'jgdavey/vim-railscasts'
 Plugin 'morhetz/gruvbox'
 Plugin 'chriskempson/base16-vim'
 Plugin 'jayferd/eco.vim'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
 
 set t_Co=256
 let base16colorspace=256  " Access colors present in 256 colorspace
